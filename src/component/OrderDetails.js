@@ -18,12 +18,12 @@ const OrderDetails = () => {
           <ul>
             {order.map(item => (
               <li key={item.name}>
-                {item.name} x {item.quantity} - {item.price * item.quantity} KGS
+                {item.name} x {item.quantity} - {item.price * item.quantity} RUB
                 <button onClick={() => dispatch(removeItem(item.name))}>Remove</button>
               </li>
             ))}
           </ul>
-          <h3>Total price: {totalPrice} KGS</h3>
+          <h3>Total price: {totalPrice} RUB</h3>
         </div>
       )}
     </div>

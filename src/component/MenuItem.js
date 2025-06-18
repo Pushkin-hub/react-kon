@@ -13,7 +13,7 @@ const MenuItem = ({ item }) => {
     <div>
       <h3>{item.name}</h3>
       <img src={item.imageSrc} alt={item.name} style={{height: '200px', width: '200px'}}/>
-      <p>Цена: {item.price} KGS</p>
+      <p>Цена: {item.price} RUB</p>
       <button onClick={handleAddItem}>Добавить в заказ</button>
     </div>
   );

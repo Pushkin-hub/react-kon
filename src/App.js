@@ -12,7 +12,7 @@ const App = () => {
     <Provider store={store}>
       <Header />
       <div className="app-container">
-        <h1>Fast Food Kiosk</h1>
+        <h1>Киоск Фаст-Фуд</h1>
         <div className="order-panel">
           <OrderDetails />
         </div>
